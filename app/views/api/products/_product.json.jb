@@ -1,0 +1,17 @@
+{
+  id: product.id,
+  name: product.name,
+  price: product.price,
+  description: product.description,
+  quantity: product.quantity,
+  supplier_id: product.supplier_id,
+  supplier_name: product.supplier.name,
+  supplier_email: product.supplier.email,
+  supplier_phone_number: product.supplier.phone_number,
+  images: product.images,
+# pricing: {
+#   discount: product.is_discounted?,
+#   tax: product.tax,
+#   total: number_to_currency(product.total),
+# },
+}
